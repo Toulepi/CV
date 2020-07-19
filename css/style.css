@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Piedra&display=swap');
+
+        /* GENERAL */
+
+body{
+    font-family: 'Lato',cursive;
+    box-sizing: border-box;
+}
+h1{
+
+}
+h2,h3,h4,h5,h6{
+    font-weight:bold;
+    font-family: 'Lato',cursive;  /* à changer */
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: 14em;
+}
+section{
+    padding: 2em 0 2em 0;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 2em;
+}
+section .heading h2{
+    text-transform: uppercase;
+}
+.red-divider{
+    width: 4em;
+    height: .15em;
+    background: #8a6d3b;
+    margin: .8em auto;
+}
+.white-divider{
+    width: 4em;
+    height: .15em;
+    background: #fff;
+    margin: .8em auto;
+}
+.row {
+    /*margin-right:0;
+    margin-left:0;*/
+}
+        /* MENU */
+
+.navbar{
+    background: rgba(0,0,0,0.8);
+    font-size: 1em;
+    letter-spacing: .2em;
+    text-transform:uppercase ;
+    /*font-weight: bold;*/
+}
+.navbar .navbar-nav{
+
+}
+.navbar .navbar-collapse{
+    /*text-align: center;*/
+}
+.navbar li a{
+    color: #fff !important;  /* priorité sur le style Bootstrap */
+    text-align: center;
+}
+.navbar-nav li a:hover, .navbar-nav li a.active{
+    color:#8a6d3b !important;
+    background-color: #fff !important;
+    border-radius: .08em;
+}
+.navbar-toggler{
+    border: 1px solid white;
+}
+.navbar-toggler .fa-bars{
+    color: white;
+}
+.navbar-default .navbar-toggle{
+   /* border-style: none; */
+}
+.icon-bar{
+    /*background-color: #fff !important;*/
+}
+
+
+
+        /* ABOUT */
+
+#about{
+    padding-top: 7em;
+    background: #8a6d3b;
+}
+#about p{
+    font-size: 2.5em;
+    color: #fff;
+}
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+}
+#about .heading h3{
+    color: #000;
+    font-weight: bold;
+}
+.button1{
+    /*font-weight: bold;*/
+
+    text-transform: uppercase;
+    color: white;
+    background: #8a6d3b;
+    border: .1em solid white;
+    display: inline-block; /* evite au bouton "télécharger" de chevaucher le titre "Web developer" */
+    margin: 1.2em auto;
+    padding: 1em 2em;
+    border-radius: .1em;
+    transition: all 0.3s ease-in 0s;  /* transition soft sur tous les types de transition ex: boutton "télécharger" */
+}
+.button1:hover{
+    background: white;
+    color:#8a6d3b;
+    text-decoration: none;
+}
+
+        /* SKILLS */
+
+#skills{
+    background: #fff;
+}
+#skills .heading h2{
+    color: #8a6d3b;
+}
+#skills .progress{
+    height: auto;
+    margin: 3em 1em;
+    background: #ddd;
+}
+#skills .progress-bar{
+    background-color: #8a6d3b;
+}
+#skills .progress h5{
+    text-shadow: .1em .1em .1em #000 ;  /* création des ombres de texte dans les barres de progression */
+}
+
+        /* EXPERIENCES */
+
+#experiences{
+    background: #8a6d3b;
+}
+#experiences .heading h2{
+    color: #fff;
+}
+.timeline{
+    padding:2.5em .6em ;
+    position: relative;
+}
+.timeline:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";  /* permet de voir l'élt "before" ou "after" */
+    width: .4em;
+    background-color: #333;
+    left: 50%;
+    margin-left: -.2em;
+}
+.timeline > li{  /* le direct-parent de l'élt "li" est ".timeline" */
+    margin-bottom: 2em;
+    position: relative;
+}
+.timeline > li:after{
+    clear: both;
+}
+.timeline > li:after, .timeline > li:before{
+    content: " ";
+    display: table;
+}
+.timeline li .timeline-badge{
+    color: #8a6d3b;
+    width: 2.5em;
+    line-height: 2.5em;
+    font-size: 1.25em;
+    text-align: center;
+    position: absolute;
+    top: .8em;
+    left: 50%;
+    margin-left: -1.25em;
+    background-color: #ddd;
+    border-radius: 50% ;
+}
+.timeline-panel-container{
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted{
+    width: 50%;
+    float: right;
+}
+.timeline-panel{
+    width: 90%;
+    float: right;
+    margin-right: 2.5em;
+    border: .1em solid #d4d4d4;
+    border-radius: .3em;
+    padding: 1em 1.2em;
+    position: relative;
+    box-shadow: 0 .8em .6em rgba(0,0,0, 0.3);
+    background: #fff;
+}
+.timeline-panel-container-inverted .timeline-panel{
+    float: left;
+    margin-left: 2.4em;
+}
+.timeline-panel:after{
+    position: absolute;
+    top: 1.6em;
+    right: -.8em;
+    border-top: .8em solid transparent;
+    border-left: .8em solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 1em solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after{
+    border-left-width: 0;
+    border-right-width: 1em;
+    left: -.8em;
+    right: auto;
+}
+.timeline-heading h3{
+    margin-top: .5em;
+    font-size: 1.5em;
+}
+.timeline-heading h4{
+    color: #8a6d3b;
+}
+
+        /* EDUCATION */
+
+#education{
+    background:#fff ;
+}
+#education .heading h2{
+    color: #8a6d3b;
+}
+.education-block{
+    width: 100%;
+    margin:.5em 0;
+    text-align: center;
+    padding: 1em;
+    background: #ddd;
+    border-radius: .4em;
+    border:.1em solid #ccc;
+    overflow-x: auto;
+
+}
+.education-block h5{
+    color: #888;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.education-block .fa-graduation-cap{
+    font-size: 2em;
+}
+.education-block h3{
+    color: #8a6d3b;
+}
+.education-block h4{
+    margin-bottom: 1em;
+    color: black;
+}
+.education-block p{
+    font-weight: bold;
+}
+.education-block .red-divider{
+    margin-bottom: 2em;
+}
+
+        /* PORTFOLIO */
+
+#portfolio{
+    background: #8a6d3b;
+    text-align: center;
+}
+#portfolio .heading h2,h4{
+    color: #fff;
+}
+#portfolio .row h4{
+    margin-bottom: .6em;
+    font-weight: normal;
+    font-style: italic;
+}
+#portfolio img.img-thumbnail{
+    width: 100%;
+    height: 14em;
+    filter:grayscale(100%);  /* Pour avoir une image en noir/blanc */
+    /* -webkit-filter: grayscale(100%); */
+}
+#portfolio img.img-thumbnail:hover{
+    filter: none;
+    /* -webkit-filter: none; */
+}
+#portfolio img[src="images/dice.png"] {
+   /* height: 15em; */
+}
+
+        /* RECOMMANDATIONS */
+
+#recommandations{
+    background: #fff;
+}
+#recommandations .heading h2{
+    color: #8a6d3b;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{  /* Ex: elt qui a la classe "carousel-control" et la classe "left" == .carousel-control.left */
+    background-color: #8a6d3b;
+}
+.carousel-indicators li{
+    border-color: #8a6d3b;
+}
+.carousel-indicators li.active{  /* li.active signifie l'elt "li" quo est "active"  */
+    background-color: #8a6d3b;
+}
+#myCarousel .carousel-item{
+    padding: 1em 1.5em;
+    margin-bottom: 4em;
+}
+#myCarousel .carousel-item h3{
+    color: #8a6d3b;
+    font-style: italic;
+}
+#myCarousel .carousel-item h4{
+    color: black;
+}
+
+            /* CONTACT */
+
+#contact{
+    background: #8a6d3b;
+}
+#contact .row{
+    margin-bottom: 1.8em;
+}
+#contact .heading h2{
+    color: #fff;
+}
+#contact-form{
+    font-size: 1.3em;
+}
+#contact-form input{
+    height: 3em;
+    font-size: .8em;
+}
+
+label, form div h5{
+    color: #000;
+    font-weight: bold;
+}
+#contact-form input[type=submit]{  /* l'élément "input" de type "submit" qui se trouve dans l'élément d'id "contact-form" */
+    display: block;
+    height: auto;
+}
+
+        /* FOOTER */
+
+footer{
+    background: #333;
+    padding: .5em 0 .5em;
+}
+footer .fa-chevron-up{
+    font-size: 1.5em;
+    margin: 5px;
+    color: #8a6d3b;
+    height: 30px;
+}
+footer .fa-chevron-up:hover{
+    font-size: 2em;
+}
+footer h5{
+    color: #fff;
+    font-weight: normal;
+}
+
+             /*****************/
+            /* MEDIA QUERIES */
+
+@media(max-width:576px){
+    #jsProgress {
+        margin-bottom:0!important;
+    }
+}
+@media(max-width:768px){
+    .timeline:before{
+        left: 30px;
+    }
+    .timeline li .timeline-badge{
+        left: 20px;
+    }
+    .timeline-panel-container, .timeline-panel-container-inverted{
+        width: 100%;
+    }
+    .timeline-panel-container-inverted .timeline-panel, .timeline-panel{
+        margin-left: 60px;
+        float: none;
+    }
+    .timeline-panel:after{
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+
+}
+
+
