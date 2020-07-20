@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Piedra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Galada&family=Grenze+Gotisch&family=Mali&display=swap');
 
         /* GENERAL */
 
 body{
-    font-family: cursive;
+    font-family: Mali, Fondamento,"Grenze+Gotisch";
     box-sizing: border-box;
-}
-h1{
-
 }
 h2,h3,h4,h5,h6{
     font-weight:bold;
-    font-family: cursive;;  /* à changer */
+    font-family: Mali, Fondamento,Galada, cursive;
 }
-ul, ol{
+ul {
     list-style: none;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;  /* Tous les enfants de l'élt "ul" (les liens "a" sont centrés */
+
 }
 img{
     max-width: 100%;
@@ -47,18 +48,20 @@ section .heading h2{
     /*margin-right:0;
     margin-left:0;*/
 }
+
         /* MENU */
 
 .navbar{
-    height:4em;
-    background: rgba(0,0,0,0.9);
+    /*height:4em;*/   /*risque de débordement de l'elt de classe 'navbar-nav'*/
+    background: rgba(0,0,0,0.8);
     font-size: 1em;
     letter-spacing: .2em;
     text-transform:uppercase;
-    /*font-weight: bold;*/
+    padding: .8em;
+
 }
 .navbar .navbar-nav{
-
+    /*background: rgba(0,0,0,.7);*/
 }
 .navbar .navbar-collapse{
     /*text-align: center;*/
@@ -73,19 +76,18 @@ section .heading h2{
     background-color: #fff !important;
     border-radius: .08em;
 }
-.navbar-toggler{
-    border: 1px solid white;
+.navbar-toggler {
+    border: 1px solid #fff;
 }
 .navbar-toggler .fa-bars{
-    color: white;
+    color: #fff;
 }
 .navbar-default .navbar-toggle{
    /* border-style: none; */
 }
 .icon-bar{
-    /*background-color: #fff !important;*/
-}
 
+}
 
 
         /* ABOUT */
@@ -256,7 +258,6 @@ section .heading h2{
     border-radius: .4em;
     border:.1em solid #ccc;
     overflow-x: auto;
-
 }
 .education-block h5{
     color: #888;
@@ -393,8 +394,10 @@ footer h5{
     font-weight: normal;
 }
 
+
              /*****************/
             /* MEDIA QUERIES */
+
 
 @media(max-width:576px){
     #jsProgress {
