@@ -10,7 +10,7 @@
 
     <title>Toulépi</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
     <div class="container d-flex">
         <nav class="navbar navbar-expand-sm fixed-top">
 
@@ -298,22 +298,26 @@
                 <h2>Contact</h2>
             </div>
 
-            <form id="contact-form" method="post" action="" role="form">
+            <form id="contact-form" method="post" action="php/form_submit.php" target="_blank" class="needs-validation">  <!--method="post"-->
                 <div class="row">
-                    <div class="col col-12 col-sm-6">
-                        <label for="firstname">Prénom *</label>  <!-- "for" permet de faire un focus sur l'id "firstname" -->
-                        <input type="text" id="firstname" name="firstname" class="form-control" placeholder = "Votre prénom">  <!-- le label marche avec un 'id'; "value" permet d'afficher les données de l'utilisateur en 2nd instance -->
+                    <div class="col col-12 col-sm-6 form-group">
+                        <label for="firstname">Prénom <sup>*</sup></label>  <!-- "for" permet de faire un focus sur l'id "firstname" -->
+                        <input type="text" id="firstname" name="firstname" class="form-control" placeholder = "Votre prénom" required>  <!-- le label marche avec un 'id'; "value" permet d'afficher les données de l'utilisateur en 2nd instance -->
+                        <div class="valid-feedback"><!-- Saisie valide--></div>
+                        <div class="invalid-feedback"><!--SVP veuillez remplir ce champ.--></div>
                     </div>
                     <div class="col col-12 col-sm-6">
-                        <label for="name">Nom *</label>
-                        <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" >
+                        <label for="name">Nom <sup>*</sup></label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" required>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col col-12 col-sm-6">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Votre email" >
+                        <label for="email">Email <sup>*</sup></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Votre email" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"><!--Ce champ est requis.--></div>
                     </div>
                     <div class="col col-12 col-sm-6">
                         <label for="phone">Téléphone</label>
@@ -323,22 +327,23 @@
 
                 <div class="row">
                     <div class="col col-12 col-sm-12 ">
-                        <label for="subject">Sujet *</label>
+                        <label for="subject">Sujet</label>
                         <select name="sujet" id="subject" class="form-control">
                             <option value="Quel est le sujet de votre message ?">Quel est le sujet de votre message ?</option>
-                            <option class="Je voudrais avoir plus d'infos sur tes services">Je voudrais avoir plus d'infos sur tes services</option>
-                            <option class="J'aimerais recevoir un devis">J'aimerais recevoir un devis</option>
-                            <option class="Autre">Autre</option>
+                            <option value="Je voudrais avoir plus d'infos sur tes services">Je voudrais avoir plus d'infos sur tes services</option>
+                            <option value="J'aimerais recevoir un devis">J'aimerais recevoir un devis</option>
+                            <option value="Autre">Autre</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" class="form-control" placeholder="Votre message" rows="4" ></textarea>
+                        <label for="message">Message <sup>*</sup></label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Votre message" rows="4" required></textarea>
                     </div>
                 </div>
+
 
                 <div>
                     <h5>Ces informations sont requises (*)</h5>
