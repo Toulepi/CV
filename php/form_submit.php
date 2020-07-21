@@ -1,5 +1,4 @@
 <?php
-
 	$infos = [              // tableau de type associative
 	    "firstname" => "",
         "name" => "",
@@ -32,7 +31,18 @@
 
             $headers = "From: {$infos["firstname"]} {$infos["name"]}" . "\r\n" . "CC: {$infos["email"]}";
 
-			//mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);              // envoi de l'email à l'aide de la fontion 'mail()'
+            //ini_set('sendmail_from', "{$infos["subject"]}");
+            //ini_set("SMTP","smtp.example.com" );
+			//mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);
+
+        /*
+            Problem with the mail() function
+
+            ini_set("SMTP","smtp.example.com" );
+            ini_set('sendmail_from', 'user@example.com');
+            ?>
+            or set them in the php.ini file
+		*/
 		}
 	}
 ?>

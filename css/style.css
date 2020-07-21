@@ -249,9 +249,14 @@ section .heading h2{
 #education .heading h2{
     color: #8a6d3b;
 }
+#education .row div[class=col-md-4]{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
 .education-block{
     width: 100%;
-    margin:.5em 0;
+    height: 100%;
+    margin:.8em 0;
     text-align: center;
     padding: 1em;
     background: #ddd;
