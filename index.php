@@ -37,7 +37,7 @@
                 <p>Bonjour, je suis Toulépi</p>
                 <h3>Développeur d'Application Web & Mobile</h3>
                 <h3>Ingénieur Energie</h3>
-                <a href="docs/CV-TchindaToulépi.pdf" class="button1" target="_blank">Télécharger CV</a>
+                <a href="docs/CV-TCHINDA%20TOULEPI.pdf" class="button1" target="_blank">Télécharger CV</a>
             </div>
             <div class="col-12 col-sm-4 profile-picture">
                 <img src="images/me.jpg" alt="image Toulépi" class="rounded-circle">
@@ -197,7 +197,7 @@
                         <h5><i class="fas fa-clock"></i> Mai-Oct 2020</h5>
                         <span class="fas fa-graduation-cap"></span>
                         <h3>Alt-Rh-Consulting</h3>
-                        <h4>Formation RNCP 2 "Développeur d'Application Web & Mobile"</h4>
+                        <h4>Formation RNCP 3 "Développeur d'Application Web & Mobile"</h4>
                         <div class="red-divider"></div>
                         <p>HTML5/CSS3, Javascript, jQuery</p>
                         <p>PHP, Bases de données SQL, MySQL</p>

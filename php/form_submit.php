@@ -28,20 +28,15 @@
 		if($infos["isSuccess"])
 		{
 			$msg = "Sujet:{$infos["subject"]}" ."\r\n"."{$infos["message"]}";
+            $headers = "From: {$infos["firstname"]} {$infos["name"]}" . "\r\n" .
+                       "CC: {$infos["email"]}";
 
-            $headers = "From: {$infos["firstname"]} {$infos["name"]}" . "\r\n" . "CC: {$infos["email"]}";
-
-            //ini_set('sendmail_from', "{$infos["subject"]}");
-            //ini_set("SMTP","smtp.example.com" );
-			//mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);
+			//mail("tchindatoulepi@yahoo.com", "Vous avez reçu un message de votre site internet" , $msg, $headers);
+            //$send = mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);
 
         /*
-            Problem with the mail() function
-
-            ini_set("SMTP","smtp.example.com" );
-            ini_set('sendmail_from', 'user@example.com');
-            ?>
-            or set them in the php.ini file
+        Syntaxe fonction mail() source php.net
+        mail (string $to , string $subject , string $message [, mixed $additional_headers [, string $additional_parameters ]] ) : bool
 		*/
 		}
 	}
@@ -61,20 +56,30 @@
 <body id="recap-content">
 
     <div class="recap">
-        <h1>Votre formulaire a été envoyé avec succès</h1>
         <h3>les informations saisies sont les suivantes:</h3>
         <div id="data">
             <?php
-            echo "<h4>Nom: ".$infos["name"]."</h4>";
-            echo "<h4>Prénom: ".$infos["firstname"]."</h4>";
-            echo "<h4>Email: ".$infos["email"]."</h4>";
-            echo "<h4>Téléphone: ".$infos["phone"]."</h4>";
-            echo "<h4>Message: ".$infos["message"]."</h4>";
+                echo "<h4>Nom: ".$infos["name"]."</h4>";
+                echo "<h4>Prénom: ".$infos["firstname"]."</h4>";
+                echo "<h4>Email: ".$infos["email"]."</h4>";
+                echo "<h4>Téléphone: ".$infos["phone"]."</h4>";
+                echo "<h4>Message: ".$infos["message"]."</h4>";
+            ?>
+
+
+            <?php
+                //var_dump($send);
+            /*
+                if ($send){
+                    echo "<h1>"."Votre formulaire a été envoyé avec succès"."</h1>";
+                    //header("Location:index.php");
+                } else {
+                    echo "<h1 style='color: #ef9a9a'>"."Le formulaire n'a pas pu être envoyé, veuillez essayer ultérieurement"."</h1>";
+                }
+            */
             ?>
             <h5>Merci d'avoir bien voulu me contacter.<br> A bientôt</h5>
         </div>
-
     </div>
-
 </body>
 </html>

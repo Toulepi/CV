@@ -1,19 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Grenze+Gotisch:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,500&display=swap');
+
 body {
-  background: #e1f5fe;
+  /*background: #e1f5fe;*/
+  background-color:#fafafa;
+  font-family: "Mali",cursive;
+}
+*{
+  box-sizing: border-box;
 }
 
 header {
   background: #f1f8e9;
-  height: 10rem;
-  margin-top: 0.5rem;
+  height: 9rem;
   color: #00695c;
+  margin: .1em auto;
   border-right: solid 2.5rem #00695c;
   border-left: solid 2.5rem #00695c;
   text-align: center;
   padding-top: 2rem;
-  font-family: "Bree Serif", serif;
   text-transform: capitalize;
   font-size: 3rem;
 }

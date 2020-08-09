@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89cb7bb9-e222-475b-98ff-f73f4683cdfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CV-TCHINDA TOULEPI.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CV-TCHINDA TOULEPI.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CV-TchindaToulépi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/form_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/form_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/projetConverter/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projets/projetConverter/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/projetConverter/views/converter.php" beforeDir="false" afterPath="$PROJECT_DIR$/projets/projetConverter/views/converter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/projetConverter/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/projets/projetConverter/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/arriere.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/images/de-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/Initial/resources/js/jQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projets/rollDice/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" show_pre_config_in_web_page="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="663122cb-2275-418c-8c03-5e685803846f" name="Wamp" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1el2M0NjJvM34Tqxo59XUj4mDYa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projets/projetConverter/public/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Energy Efficiency\Documents\GitHub\CV\projets\projetConverter\public\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Wamp" start_url="/cvTouleps.cm">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>598774a3-bb36-4cf0-8a78-371de142381b</server_id>
+          <server_name>wamp-local</server_name>
+          <group_name />
+          <path>C:\Users\Energy Efficiency\Documents\GitHub\CV</path>
+        </option>
+      </method>
+    </configuration>
+    <configuration name="wamp" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Wamp" start_url="http://cvToulepi.cm">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>598774a3-bb36-4cf0-8a78-371de142381b</server_id>
+          <server_name>wamp-local</server_name>
+          <group_name />
+          <path>C:\wamp64\www</path>
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89cb7bb9-e222-475b-98ff-f73f4683cdfb" name="Default Changelist" comment="" />
+      <created>1594881806854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594881806854</updated>
+      <workItem from="1594881812733" duration="8478000" />
+      <workItem from="1594915879527" duration="9885000" />
+      <workItem from="1594927070485" duration="3738000" />
+      <workItem from="1594991681858" duration="192000" />
+      <workItem from="1594992299934" duration="3476000" />
+      <workItem from="1594996115680" duration="34000" />
+      <workItem from="1594996168646" duration="35628000" />
+      <workItem from="1595144410122" duration="89000" />
+      <workItem from="1595144950661" duration="36000" />
+      <workItem from="1595145098973" duration="53000" />
+      <workItem from="1595145278342" duration="91000" />
+      <workItem from="1595145388298" duration="28869000" />
+      <workItem from="1595203114566" duration="390000" />
+      <workItem from="1595229086186" duration="10362000" />
+      <workItem from="1595245805372" duration="5587000" />
+      <workItem from="1595251846545" duration="1782000" />
+      <workItem from="1595290701924" duration="6718000" />
+      <workItem from="1595297652417" duration="7792000" />
+      <workItem from="1595305965297" duration="350000" />
+      <workItem from="1595306341993" duration="17000" />
+      <workItem from="1596867513124" duration="1139000" />
+      <workItem from="1596868670617" duration="325000" />
+      <workItem from="1596869006540" duration="1574000" />
+      <workItem from="1596870587619" duration="762000" />
+      <workItem from="1596917908079" duration="2073000" />
+      <workItem from="1596972784854" duration="15466000" />
+      <workItem from="1596988998111" duration="1576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="183" y="0" key="#CLI_Interpreters" timestamp="1596868410137">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="183" y="0" key="#CLI_Interpreters/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596868410137" />
+    <state x="43" y="0" key="#Deployment" timestamp="1596870669991">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="43" y="0" key="#Deployment/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596870669991" />
+    <state x="539" y="182" key="#Notifications" timestamp="1595145294789">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="539" y="182" key="#Notifications/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1595145294789" />
+    <state x="280" y="0" key="#Options" timestamp="1596870719714">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="280" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596870719714" />
+    <state x="28" y="0" key="#Servers" timestamp="1596868450683">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="28" y="0" key="#Servers/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596868450683" />
+    <state x="1368" y="0" width="1099" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596988260325">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="2" y="0" width="1099" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596870873844" />
+    <state x="1368" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596988260325" />
+    <state x="1750" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596986161952">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1750" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596986161952" />
+    <state x="278" y="66" key="FileChooserDialogImpl" timestamp="1596870637426">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="278" y="66" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596870637426" />
+    <state x="98" y="0" key="SettingsEditor" timestamp="1596868428795">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="98" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596868428795" />
+    <state x="1469" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1595293733398" />
+    <state x="98" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1595229136557" />
+    <state x="346" y="198" width="606" height="310" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1596870672460">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="198" width="606" height="310" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596870672460" />
+    <state x="1665" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1594997691566">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1665" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1594997691566" />
+  </component>
+</project>

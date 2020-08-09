@@ -3,7 +3,7 @@
         /* GENERAL */
 
 body{
-    font-family: Mali, Fondamento,"Grenze+Gotisch";
+    font-family: "Mali", cursive;
     box-sizing: border-box;
 }
 h2,h3,h4,h5,h6{
@@ -21,6 +21,12 @@ ul {
 img{
     max-width: 100%;
     height: 14em;
+
+    /* 
+    Pour rendre une image responsive faire:
+    width: 100%;
+    height: auto;
+    */
 }
 section{
     padding: 2em 0 2em 0;
@@ -382,7 +388,9 @@ label, form div h5{
             /* FORM VALIDATED */
 
  #recap-content{
-     background-color: #8a6d3b;
+     /*background-color: #8a6d3b;*/
+     background-color: #fff!important;
+
  }
  .recap h1{
      text-align: center;
