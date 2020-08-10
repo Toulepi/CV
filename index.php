@@ -201,7 +201,6 @@
                         <div class="red-divider"></div>
                         <p>HTML5/CSS3, Javascript, jQuery</p>
                         <p>PHP, Bases de données SQL, MySQL</p>
-                        <!--<p>Hébergement, noms de domaine</p>-->
                     </div>
                 </div>
 
