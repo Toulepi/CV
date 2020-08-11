@@ -1,4 +1,5 @@
 <?php
+
 	$infos = [              // tableau de type associative
 	    "firstname" => "",
         "name" => "",
@@ -31,15 +32,16 @@
             $headers = "From: {$infos["firstname"]} {$infos["name"]}" . "\r\n" .
                        "CC: {$infos["email"]}";
 
-			//mail("tchindatoulepi@yahoo.com", "Vous avez reçu un message de votre site internet" , $msg, $headers);
+			mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);
             //$send = mail("tchindafabrice@yahoo.fr", "Vous avez reçu un message de votre site internet" , $msg, $headers);
-
-        /*
-        Syntaxe fonction mail() source php.net
-        mail (string $to , string $subject , string $message [, mixed $additional_headers [, string $additional_parameters ]] ) : bool
-		*/
-		}
-	}
+        }    
+    }
+    
+    /*
+        if($send){
+            $infos['firstname'] = $infos['name'] = $infos['email'] = $infos['phone'] = $infos['subject'] = $infos['message'] = "";
+        }
+    */
 ?>
 
 <!doctype html>
@@ -51,7 +53,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
     <title>Form Submit</title>
-
 </head>
 <body id="recap-content">
 
@@ -65,7 +66,6 @@
                 echo "<h4>Téléphone: ".$infos["phone"]."</h4>";
                 echo "<h4>Message: ".$infos["message"]."</h4>";
             ?>
-
 
             <?php
                 //var_dump($send);
