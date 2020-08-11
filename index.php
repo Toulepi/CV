@@ -297,7 +297,7 @@
                 <h2>Contact</h2>
             </div>
 
-            <form id="contact-form" method="post" action="php/form_submit.php" target="_blank" class="needs-validation">  <!--method="post"-->
+            <form id="contact-form" method="post" action="php/form_submit.php" target="_blank" class="needs-validation" autocomplete="off">  <!--method="post"-->
                 <div class="row">
                     <div class="col col-12 col-sm-6 form-group">
                         <label for="firstname">Prénom <sup>*</sup></label>  <!-- "for" permet de faire un focus sur l'id "firstname" -->
